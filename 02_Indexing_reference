@@ -11,6 +11,9 @@
 #SBATCH --time=24:00:00
 #SBATCH -E g.gouws@sheffield.ac.uk
 
+# Load Genomics software repository
+source /usr/local/community/Genomics/.bashrc
+
 # Navigate to working directory in which reference genome fasta or fastq file is located
 cd /mnt/fastdata/bi1gg/omnic/reference
 
