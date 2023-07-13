@@ -9,7 +9,8 @@
 #SBATCH -p molecolb
 #SBATCH --mem-per-cpu=8GB
 #SBATCH --time=24:00:00
-#SBATCH -E g.gouws@sheffield.ac.uk
+#SBATCH --mail-type=all
+#SBATCH --mail-user=g.gouws@sheffield.ac.uk
 
 # Load Genomics software repository
 source /usr/local/community/Genomics/.bashrc
